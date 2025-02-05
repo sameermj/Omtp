@@ -1,0 +1,36 @@
+{
+  "name": "starmaker-clone",
+  "version": "1.0.0",
+  "description": "A feature-rich web application similar to StarMaker with karaoke and social features.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/backend/server.js",
+    "build": "webpack --mode production",
+    "dev": "webpack --mode development",
+    "install": "php src/scripts/installer.php"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "socket.io": "^4.0.0",
+    "redis": "^3.1.2"
+  },
+  "devDependencies": {
+    "webpack": "^5.0.0",
+    "webpack-cli": "^4.0.0",
+    "babel-loader": "^8.1.0",
+    "typescript": "^4.0.0",
+    "ts-loader": "^8.0.0",
+    "eslint": "^7.0.0"
+  },
+  "keywords": [
+    "karaoke",
+    "social",
+    "web",
+    "application"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
