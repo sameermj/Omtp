@@ -1,0 +1,27 @@
+{
+  "name": "singing-chat-platform-admin",
+  "version": "1.0.0",
+  "description": "Admin panel for the singing chat platform.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3",
+    "axios": "^0.21.1",
+    "chart.js": "^2.9.4",
+    "react-chartjs-2": "^2.11.1",
+    "styled-components": "^5.2.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.1.2",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0"
+  },
+  "license": "MIT"
+}

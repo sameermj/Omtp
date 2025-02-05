@@ -1,0 +1,24 @@
+{
+  "name": "singing-chat-platform-security",
+  "version": "1.0.0",
+  "description": "Security module for the singing chat platform, handling authentication and security features.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "express-session": "^1.17.1",
+    "cors": "^2.8.5",
+    "helmet": "^4.6.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.4",
+    "@types/bcrypt": "^5.0.0",
+    "@types/express-session": "^1.17.0",
+    "@types/cors": "^2.8.10",
+    "@types/helmet": "^4.0.0"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}
